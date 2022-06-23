@@ -1,12 +1,24 @@
-/* Media Query */
 
+/* HTML Elements */
 
 body {
   font-family: 'Montserrat';
   background-color: whitesmoke;
+  text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  font-family: 'Montserrat-Light';
+  color: #8f8f8f;
+}
+
+
+/* HEADINGS */
+.big-heading{
   font-family: "Montserrat-Black, sans-serif";
   font-size: 3.5rem;
   line-height: 1.5;
@@ -14,21 +26,20 @@ h1 {
   color: whitesmoke;
 }
 
-h2 {
-  font-family: 'Montserrat-Bold';
+.section-heading{
   font-size: 3rem;
   line-height: 1.5;
 }
 
-h3 {
-  font-family: 'Montserrat-Bold';
-  font-size: 2.0rem;
-  font-weight: 800;
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: whitesmoke;
 }
 
-p {
-  font-family: 'Montserrat-Light';
-  color: #8f8f8f;
+.white-section{
+  background-color: white;
 }
 
 /*  CLASSES STYLING */
@@ -88,7 +99,6 @@ p {
 /* Features section */
 #features {
   padding: 7% 15%;
-  background-color: white;
   /* position: relative; */
 }
 
@@ -97,13 +107,18 @@ p {
 }
 
 .feature-box {
-  text-align: center;
+
   padding: 5%;
+}
+
+.feature-title{
+  font-size: 2.0rem;
+  font-weight: 800;
 }
 
 /* Testimonial Section */
 #testimonials {
-  text-align: center;
+
   background-color: #ef8172;
   color: white;
 }
@@ -114,6 +129,11 @@ p {
   margin: 20px;
 }
 
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .carousel-item {
   padding: 7% 15%;
 }
@@ -121,7 +141,6 @@ p {
 /* Press section */
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -132,12 +151,14 @@ p {
 
 /* pricing Section */
 #pricing {
-  text-align: center;
+
   padding: 100px;
 }
 
-.price {
+.price-text {
   font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-column {
@@ -147,7 +168,7 @@ p {
 /* CTA Section */
 
 #cta {
-  text-align: center;
+
   background-color: #ff4c68;
   color: whitesmoke;
   line-height: 1.5;
@@ -164,16 +185,11 @@ p {
   }
 } */
 
-.cta-note{
-  font-family: 'Montserrat-Black';
-  font-weight: 900;
-  font-size: 3.5rem;
-}
 
 /* Footer Section */
 
 #footer {
-  text-align: center;
+
   padding: 7% 15%;
 }
 
